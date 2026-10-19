@@ -25,7 +25,6 @@ export default class MenuComponent extends Component {
     return (
       <nav className="w-full bg-blue-600 text-white rounded-t-lg">
         <div className="flex items-center px-4 py-2 gap-4">
-          {/* Logo */}
           <NavLink to="/" className="shrink-0">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/3/38/Stranger_Things_logo.png"
@@ -34,7 +33,6 @@ export default class MenuComponent extends Component {
             />
           </NavLink>
 
-          {/* Enlaces */}
           <NavLink to="/" className="text-white hover:text-gray-200">
             Home
           </NavLink>
@@ -50,7 +48,6 @@ export default class MenuComponent extends Component {
             Modificar personaje
           </Link>
 
-          {/* Menú desplegable */}
           <div className="relative">
             <button
               onClick={() =>
